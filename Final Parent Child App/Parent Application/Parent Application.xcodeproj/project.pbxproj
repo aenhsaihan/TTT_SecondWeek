@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		487BA620184503EB00F915D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 487BA61F184503EB00F915D7 /* UIKit.framework */; };
+		487BA622184503EB00F915D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 487BA621184503EB00F915D7 /* Foundation.framework */; };
+		487BA624184503EB00F915D7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 487BA623184503EB00F915D7 /* CoreGraphics.framework */; };
+		487BA62A184503EB00F915D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 487BA628184503EB00F915D7 /* InfoPlist.strings */; };
+		487BA62C184503EB00F915D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 487BA62B184503EB00F915D7 /* main.m */; };
+		487BA630184503EB00F915D7 /* TTTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 487BA62F184503EB00F915D7 /* TTTAppDelegate.m */; };
+		487BA632184503EB00F915D7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 487BA631184503EB00F915D7 /* Default.png */; };
+		487BA634184503EB00F915D7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 487BA633184503EB00F915D7 /* Default@2x.png */; };
+		487BA636184503EB00F915D7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 487BA635184503EB00F915D7 /* Default-568h@2x.png */; };
+		487BA639184503EB00F915D7 /* TTTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 487BA638184503EB00F915D7 /* TTTViewController.m */; };
+		487BA63C184503EB00F915D7 /* TTTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 487BA63A184503EB00F915D7 /* TTTViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		487BA61C184503EB00F915D7 /* Parent Application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Parent Application.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		487BA61F184503EB00F915D7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		487BA621184503EB00F915D7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		487BA623184503EB00F915D7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		487BA627184503EB00F915D7 /* Parent Application-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Parent Application-Info.plist"; sourceTree = "<group>"; };
+		487BA629184503EB00F915D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		487BA62B184503EB00F915D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		487BA62D184503EB00F915D7 /* Parent Application-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Parent Application-Prefix.pch"; sourceTree = "<group>"; };
+		487BA62E184503EB00F915D7 /* TTTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTTAppDelegate.h; sourceTree = "<group>"; };
+		487BA62F184503EB00F915D7 /* TTTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTTAppDelegate.m; sourceTree = "<group>"; };
+		487BA631184503EB00F915D7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		487BA633184503EB00F915D7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		487BA635184503EB00F915D7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		487BA637184503EB00F915D7 /* TTTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTTViewController.h; sourceTree = "<group>"; };
+		487BA638184503EB00F915D7 /* TTTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTTViewController.m; sourceTree = "<group>"; };
+		487BA63B184503EB00F915D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TTTViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		487BA619184503EB00F915D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				487BA620184503EB00F915D7 /* UIKit.framework in Frameworks */,
+				487BA622184503EB00F915D7 /* Foundation.framework in Frameworks */,
+				487BA624184503EB00F915D7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		487BA613184503EB00F915D7 = {
+			isa = PBXGroup;
+			children = (
+				487BA625184503EB00F915D7 /* Parent Application */,
+				487BA61E184503EB00F915D7 /* Frameworks */,
+				487BA61D184503EB00F915D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		487BA61D184503EB00F915D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				487BA61C184503EB00F915D7 /* Parent Application.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		487BA61E184503EB00F915D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				487BA61F184503EB00F915D7 /* UIKit.framework */,
+				487BA621184503EB00F915D7 /* Foundation.framework */,
+				487BA623184503EB00F915D7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		487BA625184503EB00F915D7 /* Parent Application */ = {
+			isa = PBXGroup;
+			children = (
+				487BA62E184503EB00F915D7 /* TTTAppDelegate.h */,
+				487BA62F184503EB00F915D7 /* TTTAppDelegate.m */,
+				487BA637184503EB00F915D7 /* TTTViewController.h */,
+				487BA638184503EB00F915D7 /* TTTViewController.m */,
+				487BA63A184503EB00F915D7 /* TTTViewController.xib */,
+				487BA626184503EB00F915D7 /* Supporting Files */,
+			);
+			path = "Parent Application";
+			sourceTree = "<group>";
+		};
+		487BA626184503EB00F915D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				487BA627184503EB00F915D7 /* Parent Application-Info.plist */,
+				487BA628184503EB00F915D7 /* InfoPlist.strings */,
+				487BA62B184503EB00F915D7 /* main.m */,
+				487BA62D184503EB00F915D7 /* Parent Application-Prefix.pch */,
+				487BA631184503EB00F915D7 /* Default.png */,
+				487BA633184503EB00F915D7 /* Default@2x.png */,
+				487BA635184503EB00F915D7 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		487BA61B184503EB00F915D7 /* Parent Application */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 487BA63F184503EB00F915D7 /* Build configuration list for PBXNativeTarget "Parent Application" */;
+			buildPhases = (
+				487BA618184503EB00F915D7 /* Sources */,
+				487BA619184503EB00F915D7 /* Frameworks */,
+				487BA61A184503EB00F915D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Parent Application";
+			productName = "Parent Application";
+			productReference = 487BA61C184503EB00F915D7 /* Parent Application.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		487BA614184503EB00F915D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TTT;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = TurnToTech;
+			};
+			buildConfigurationList = 487BA617184503EB00F915D7 /* Build configuration list for PBXProject "Parent Application" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 487BA613184503EB00F915D7;
+			productRefGroup = 487BA61D184503EB00F915D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				487BA61B184503EB00F915D7 /* Parent Application */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		487BA61A184503EB00F915D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				487BA62A184503EB00F915D7 /* InfoPlist.strings in Resources */,
+				487BA632184503EB00F915D7 /* Default.png in Resources */,
+				487BA634184503EB00F915D7 /* Default@2x.png in Resources */,
+				487BA636184503EB00F915D7 /* Default-568h@2x.png in Resources */,
+				487BA63C184503EB00F915D7 /* TTTViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		487BA618184503EB00F915D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				487BA62C184503EB00F915D7 /* main.m in Sources */,
+				487BA630184503EB00F915D7 /* TTTAppDelegate.m in Sources */,
+				487BA639184503EB00F915D7 /* TTTViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		487BA628184503EB00F915D7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				487BA629184503EB00F915D7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		487BA63A184503EB00F915D7 /* TTTViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				487BA63B184503EB00F915D7 /* en */,
+			);
+			name = TTTViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		487BA63D184503EB00F915D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		487BA63E184503EB00F915D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		487BA640184503EB00F915D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Parent Application/Parent Application-Prefix.pch";
+				INFOPLIST_FILE = "Parent Application/Parent Application-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		487BA641184503EB00F915D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Parent Application/Parent Application-Prefix.pch";
+				INFOPLIST_FILE = "Parent Application/Parent Application-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		487BA617184503EB00F915D7 /* Build configuration list for PBXProject "Parent Application" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				487BA63D184503EB00F915D7 /* Debug */,
+				487BA63E184503EB00F915D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		487BA63F184503EB00F915D7 /* Build configuration list for PBXNativeTarget "Parent Application" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				487BA640184503EB00F915D7 /* Debug */,
+				487BA641184503EB00F915D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 487BA614184503EB00F915D7 /* Project object */;
+}

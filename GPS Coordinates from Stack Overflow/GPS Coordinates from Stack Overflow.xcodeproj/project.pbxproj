@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4825851D1843EAA200CCC677 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4825851C1843EAA200CCC677 /* UIKit.framework */; };
+		4825851F1843EAA200CCC677 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4825851E1843EAA200CCC677 /* Foundation.framework */; };
+		482585211843EAA200CCC677 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 482585201843EAA200CCC677 /* CoreGraphics.framework */; };
+		482585271843EAA200CCC677 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 482585251843EAA200CCC677 /* InfoPlist.strings */; };
+		482585291843EAA200CCC677 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 482585281843EAA200CCC677 /* main.m */; };
+		4825852D1843EAA200CCC677 /* TTTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4825852C1843EAA200CCC677 /* TTTAppDelegate.m */; };
+		4825852F1843EAA200CCC677 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4825852E1843EAA200CCC677 /* Default.png */; };
+		482585311843EAA200CCC677 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 482585301843EAA200CCC677 /* Default@2x.png */; };
+		482585331843EAA200CCC677 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 482585321843EAA200CCC677 /* Default-568h@2x.png */; };
+		482585361843EAA200CCC677 /* TTTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 482585351843EAA200CCC677 /* TTTViewController.m */; };
+		482585391843EAA200CCC677 /* TTTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 482585371843EAA200CCC677 /* TTTViewController.xib */; };
+		482585401843EACB00CCC677 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4825853F1843EACB00CCC677 /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		482585191843EAA200CCC677 /* GPS Coordinates from Stack Overflow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GPS Coordinates from Stack Overflow.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4825851C1843EAA200CCC677 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4825851E1843EAA200CCC677 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		482585201843EAA200CCC677 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		482585241843EAA200CCC677 /* GPS Coordinates from Stack Overflow-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GPS Coordinates from Stack Overflow-Info.plist"; sourceTree = "<group>"; };
+		482585261843EAA200CCC677 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		482585281843EAA200CCC677 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4825852A1843EAA200CCC677 /* GPS Coordinates from Stack Overflow-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GPS Coordinates from Stack Overflow-Prefix.pch"; sourceTree = "<group>"; };
+		4825852B1843EAA200CCC677 /* TTTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTTAppDelegate.h; sourceTree = "<group>"; };
+		4825852C1843EAA200CCC677 /* TTTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTTAppDelegate.m; sourceTree = "<group>"; };
+		4825852E1843EAA200CCC677 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		482585301843EAA200CCC677 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		482585321843EAA200CCC677 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		482585341843EAA200CCC677 /* TTTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTTViewController.h; sourceTree = "<group>"; };
+		482585351843EAA200CCC677 /* TTTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTTViewController.m; sourceTree = "<group>"; };
+		482585381843EAA200CCC677 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TTTViewController.xib; sourceTree = "<group>"; };
+		4825853F1843EACB00CCC677 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		482585161843EAA200CCC677 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				482585401843EACB00CCC677 /* CoreLocation.framework in Frameworks */,
+				4825851D1843EAA200CCC677 /* UIKit.framework in Frameworks */,
+				4825851F1843EAA200CCC677 /* Foundation.framework in Frameworks */,
+				482585211843EAA200CCC677 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		482585101843EAA200CCC677 = {
+			isa = PBXGroup;
+			children = (
+				4825853F1843EACB00CCC677 /* CoreLocation.framework */,
+				482585221843EAA200CCC677 /* GPS Coordinates from Stack Overflow */,
+				4825851B1843EAA200CCC677 /* Frameworks */,
+				4825851A1843EAA200CCC677 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4825851A1843EAA200CCC677 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				482585191843EAA200CCC677 /* GPS Coordinates from Stack Overflow.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4825851B1843EAA200CCC677 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4825851C1843EAA200CCC677 /* UIKit.framework */,
+				4825851E1843EAA200CCC677 /* Foundation.framework */,
+				482585201843EAA200CCC677 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		482585221843EAA200CCC677 /* GPS Coordinates from Stack Overflow */ = {
+			isa = PBXGroup;
+			children = (
+				4825852B1843EAA200CCC677 /* TTTAppDelegate.h */,
+				4825852C1843EAA200CCC677 /* TTTAppDelegate.m */,
+				482585341843EAA200CCC677 /* TTTViewController.h */,
+				482585351843EAA200CCC677 /* TTTViewController.m */,
+				482585371843EAA200CCC677 /* TTTViewController.xib */,
+				482585231843EAA200CCC677 /* Supporting Files */,
+			);
+			path = "GPS Coordinates from Stack Overflow";
+			sourceTree = "<group>";
+		};
+		482585231843EAA200CCC677 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				482585241843EAA200CCC677 /* GPS Coordinates from Stack Overflow-Info.plist */,
+				482585251843EAA200CCC677 /* InfoPlist.strings */,
+				482585281843EAA200CCC677 /* main.m */,
+				4825852A1843EAA200CCC677 /* GPS Coordinates from Stack Overflow-Prefix.pch */,
+				4825852E1843EAA200CCC677 /* Default.png */,
+				482585301843EAA200CCC677 /* Default@2x.png */,
+				482585321843EAA200CCC677 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		482585181843EAA200CCC677 /* GPS Coordinates from Stack Overflow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4825853C1843EAA200CCC677 /* Build configuration list for PBXNativeTarget "GPS Coordinates from Stack Overflow" */;
+			buildPhases = (
+				482585151843EAA200CCC677 /* Sources */,
+				482585161843EAA200CCC677 /* Frameworks */,
+				482585171843EAA200CCC677 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GPS Coordinates from Stack Overflow";
+			productName = "GPS Coordinates from Stack Overflow";
+			productReference = 482585191843EAA200CCC677 /* GPS Coordinates from Stack Overflow.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		482585111843EAA200CCC677 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TTT;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = TurnToTech;
+			};
+			buildConfigurationList = 482585141843EAA200CCC677 /* Build configuration list for PBXProject "GPS Coordinates from Stack Overflow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 482585101843EAA200CCC677;
+			productRefGroup = 4825851A1843EAA200CCC677 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				482585181843EAA200CCC677 /* GPS Coordinates from Stack Overflow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		482585171843EAA200CCC677 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				482585271843EAA200CCC677 /* InfoPlist.strings in Resources */,
+				4825852F1843EAA200CCC677 /* Default.png in Resources */,
+				482585311843EAA200CCC677 /* Default@2x.png in Resources */,
+				482585331843EAA200CCC677 /* Default-568h@2x.png in Resources */,
+				482585391843EAA200CCC677 /* TTTViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		482585151843EAA200CCC677 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				482585291843EAA200CCC677 /* main.m in Sources */,
+				4825852D1843EAA200CCC677 /* TTTAppDelegate.m in Sources */,
+				482585361843EAA200CCC677 /* TTTViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		482585251843EAA200CCC677 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				482585261843EAA200CCC677 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		482585371843EAA200CCC677 /* TTTViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				482585381843EAA200CCC677 /* en */,
+			);
+			name = TTTViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4825853A1843EAA200CCC677 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4825853B1843EAA200CCC677 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4825853D1843EAA200CCC677 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GPS Coordinates from Stack Overflow/GPS Coordinates from Stack Overflow-Prefix.pch";
+				INFOPLIST_FILE = "GPS Coordinates from Stack Overflow/GPS Coordinates from Stack Overflow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4825853E1843EAA200CCC677 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GPS Coordinates from Stack Overflow/GPS Coordinates from Stack Overflow-Prefix.pch";
+				INFOPLIST_FILE = "GPS Coordinates from Stack Overflow/GPS Coordinates from Stack Overflow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		482585141843EAA200CCC677 /* Build configuration list for PBXProject "GPS Coordinates from Stack Overflow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4825853A1843EAA200CCC677 /* Debug */,
+				4825853B1843EAA200CCC677 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4825853C1843EAA200CCC677 /* Build configuration list for PBXNativeTarget "GPS Coordinates from Stack Overflow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4825853D1843EAA200CCC677 /* Debug */,
+				4825853E1843EAA200CCC677 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 482585111843EAA200CCC677 /* Project object */;
+}
